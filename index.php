@@ -8,17 +8,8 @@
 </head>
 
 <body>
-    <!-- Without escaping -->
     <?php
-    if (1 == 1) {
-        echo "<p>This works!</p>";
-    }
-    ?>
-
-    <!-- With escaping -->
-    <?php if (1 == 1) { ?>
-        <p>This work!!</p>
-    <?php }
+    phpinfo();
     ?>
 </body>
 
